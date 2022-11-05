@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title> AI OBJECT FINDER</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bungee+Spice&family=Comic+Neue:ital,wght@1,300&family=Creepster&family=Fuzzy+Bubbles:wght@700&family=Indie+Flower&family=Lobster&family=Lobster+Two&family=Macondo&family=Monoton&family=Mouse+Memoirs&family=Noto+Serif+Display:ital,wght@1,200&family=Playfair+Display+SC&family=Righteous&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@100&family=Rubik+Moonrocks&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200&family=Special+Elite&family=Square+Peg&family=Tapestry&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body background="Background.jpg">
+        <center>
+          <h1 class="btn btn-primary" id="heading">AI  OBJECT  FINDER
+          <br>
+         <p> THE INPUT NAME WHICH YOU WILL GIVE SHOULD MATCH THE NAME PRESENT IN COCO MODEL THEN ONLY IT WILL DETECT.</p>
+          </h1>
+          <h3 class="object_name">Object Name :</h3>
+          <input type="text" id="input_id">
+          <br><br>
+          <button onclick="start()" class="btn btn-success" id="start_button">Start</button>
+          <br>
+          <h3 id="status" class="btn btn-danger"></h3>
+          <h3 id="object_found" class="btn btn-warning"></h3>
+        </center>
+    </body>
+    <script src="main.js"></script>
+</html>

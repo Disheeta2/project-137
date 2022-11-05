@@ -1,0 +1,36 @@
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+
+#heading
+{
+  width: 100%;
+  margin:0;
+  font-size: 40px;
+  font-family: 'Monoton', cursive;
+
+}
+
+p
+{
+    margin-bottom:0;
+    font-size: 15px;
+    color: lightblue;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+.object_name
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+canvas
+{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    background-color: brown;
+}
